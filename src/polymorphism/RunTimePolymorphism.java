@@ -1,0 +1,36 @@
+package polymorphism;
+class parentClass
+{
+   void display()
+        {
+        System.out.println("parentClass display method");
+        }
+    void show()
+        {
+        System.out.println("parentClass show method");
+        }
+}
+class childClass extends parentClass
+{
+   //does not contain any method  parent method will be initialized
+}
+public class RunTimePolymorphism extends  childClass
+{
+    void show()
+        {
+        System.out.println(" RunTimePolymorphism show method called");
+        }
+    void display()
+    {
+        System.out.println("child class display method");
+    }
+    public static void main(String[] args)
+    {
+        RunTimePolymorphism rp=new RunTimePolymorphism();//child class object child class reference
+        rp.show();// RunTimePolymorphism this class show method called this is method Overriding
+        rp.display();
+        childClass cs=new childClass();//child class object child class reference
+        cs.show();// childClass child class don't have show method that's why parent method called
+        cs.display();
+    }
+}
