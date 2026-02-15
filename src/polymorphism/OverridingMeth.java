@@ -13,7 +13,6 @@ public class OverridingMeth extends Polymorph
     @Override
     void method()
     {
-        System.out.println(" dmncfdcnjnsdxcn");
         System.out.println(" OverridingMeth class method called");
       int a=11;
       System.out.println(a);
