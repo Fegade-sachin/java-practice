@@ -10,11 +10,11 @@ class parentClass
         System.out.println("parentClass show method");
         }
 }
-class childClass extends parentClass
+ class ChildClass extends parentClass
 {
    //does not contain any method  parent method will be initialized
 }
-public class RunTimePolymorphism extends  childClass
+public class RunTimePolymorphism extends  ChildClass
 {
     void show()
         {
@@ -29,7 +29,7 @@ public class RunTimePolymorphism extends  childClass
         RunTimePolymorphism rp=new RunTimePolymorphism();//child class object child class reference
         rp.show();// RunTimePolymorphism this class show method called this is method Overriding
         rp.display();
-        childClass cs=new childClass();//child class object child class reference
+        ChildClass cs=new ChildClass();//child class object child class reference
         cs.show();// childClass child class don't have show method that's why parent method called
         cs.display();
     }
