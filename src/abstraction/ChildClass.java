@@ -30,7 +30,7 @@ public class ChildClass extends parent1
         System.out.println(a);//0//1
     }
 
-   public static void main(String args[])
+   public static void main(String[] args)
     {
         new ChildClass();
     }
