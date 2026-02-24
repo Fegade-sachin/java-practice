@@ -3,7 +3,7 @@ abstract class  ReParentClass
 {
     void  display()
     {
-        System.out.println("Child Class");
+        System.out.println("parent Class");
     }
   protected abstract void meth1();
 }

@@ -17,9 +17,11 @@ package polymorphism;
         private void meth3()
         {
             System.out.println("this is private meth abstract class");
+            this.meth4();
         }
         public void meth4()
         {
+         meth6();
             System.out.println("this is public abstract concrete method");
         }
         void meth5()
@@ -46,17 +48,18 @@ public class PolymorphismRulesAccessModifiers extends abstractClass//concrete cl
     }
 
     void meth2() {
-        System.out.println("provide  an implementation default meth1");
+        System.out.println("provide  an implementation default meth2");
     }
 
     protected void meth7() {
-        System.out.println("provide an implementation default meth1");
+        System.out.println("provide an implementation default meth3");
     }
 
     public static void main(String[] args) {
         PolymorphismRulesAccessModifiers bobj = new PolymorphismRulesAccessModifiers();
         bobj.meth1();
         bobj.meth2();
+        bobj.meth5();
         bobj.meth7();
 
     }

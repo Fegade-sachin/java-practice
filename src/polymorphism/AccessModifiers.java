@@ -1,7 +1,7 @@
 package polymorphism;
 class predefined
 {
-     void display()//Access modifier connote more restricted that parent class
+     void display()//Access modifier con note more restricted that parent class
     {
         System.out.println("predefined display method");
     }
@@ -17,12 +17,12 @@ class predefined
 public class AccessModifiers extends predefined
 {
     @Override
-   protected void display() //default ,protected ,public access modifier can be use
+     void display() //default ,protected ,public access modifier can be use
     {
         System.out.println("AccessModifiers display method ");
     }
     @Override
-    protected void show()//default ,protected ,public access modifier can be use
+    protected void show()// this access modifiers can apply here protected ,public access modifier can be use
     {
         System.out.println("AccessModifiers display method ");
     }

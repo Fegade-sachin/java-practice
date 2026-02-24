@@ -30,7 +30,7 @@ public class RunTimePolymorphism extends  ChildClass
         rp.show();// RunTimePolymorphism this class show method called this is method Overriding
         rp.display();
         ChildClass cs=new ChildClass();//child class object child class reference
-        cs.show();// childClass child class don't have show method that's why parent method called
-        cs.display();
+        cs.show();// childClass  don't have show method that's why parent show method called
+        cs.display(); //childClass  don't have display method that's why parent display method called
     }
 }

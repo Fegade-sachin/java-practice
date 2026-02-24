@@ -21,7 +21,9 @@ public class MainClass1
 {
     public static void main(String[] args)
     {
-        A a = new B();
+        A a = new B();//if the reference is parent class method should be called parent class
+                    // if the method called child class Overriding should be happen
+                    // if the method called child class Overriding should be happen
 
         a.methodOne();
     }

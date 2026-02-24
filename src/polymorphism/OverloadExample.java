@@ -2,6 +2,7 @@ package polymorphism;
 /*
     2) In a class, one method has two overloaded forms.
     One form is defined as static and another form is defined as non-static. Is that method properly overloaded?
+    And: properly overloaded
  */
 public class OverloadExample
 {
