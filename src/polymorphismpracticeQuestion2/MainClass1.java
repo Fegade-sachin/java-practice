@@ -6,7 +6,7 @@ package polymorphismpracticeQuestion2;
     {
         void superClassMethod(Number n)
         {
-            System.out.println("From Super Class");
+            System.out.println("From Super Class superClassMethod method");
         }
     }
 

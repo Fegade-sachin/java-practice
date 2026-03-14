@@ -1,6 +1,4 @@
 package polymorphismpracticeQuestion3;
-// final methods can be overridden but can’t be overloaded? True or False?
-//Ans: false
 /*
 Does the below program shows polymorphism or not?
 Ans ==> NO.

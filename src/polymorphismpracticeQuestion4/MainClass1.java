@@ -21,10 +21,9 @@ public class MainClass1
 {
     public static void main(String[] args)
     {
-        A a = new B();//if the reference is parent class method should be called parent class
+        A a = new B();//if the reference is parent class Or object child class, method should be called parent class
                     // if the method called child class Overriding should be happen
-                    // if the method called child class Overriding should be happen
-
+        // but here method is static thats why method hiding will be happened here.
         a.methodOne();
     }
 }

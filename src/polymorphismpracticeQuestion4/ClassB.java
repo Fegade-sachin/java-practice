@@ -14,7 +14,7 @@ class ClassAA
 public class ClassB extends ClassAA
 {
 //      @Override
-//   void myMethod() throws SQLException // this method does not throw SQLException
+//  void myMethod() throws SQLException // this method does not throw SQLException
     {
         System.out.println("Sub Class");
     }

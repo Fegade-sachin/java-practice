@@ -18,7 +18,7 @@ class  ClassA
 class ClassB extends ClassA
 {
    //A @Override// compile time error because here primitive data type is use but another method wrapper class used
-    void methodOne(double d)//if d smaller we can not get out put you got compile time error
+    void methodOne(double d)//if double is primitive we can not get out put you got compile time error
     {
 
     }

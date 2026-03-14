@@ -21,7 +21,7 @@ This enables runtime polymorphism, allowing flexible and extensible code.
     public class DyanamicBndingTest
     {
         public static void main(String[] args) {
-            Animal2 a = new Dog2();  // Reference type: Animal, Object type: Dog
+            Animal2 a = new Dog2();  // Reference type: Animal, Object type: Dog Reference is ==> a
             a.sound();             // Output: Dog barks
         }
     }
