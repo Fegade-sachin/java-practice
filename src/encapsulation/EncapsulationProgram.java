@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 class EncImplementation
 {
     public static void main(String[] args) {

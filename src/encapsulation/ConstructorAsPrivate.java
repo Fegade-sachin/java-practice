@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 
 final class EncapsulationConstructor
 {

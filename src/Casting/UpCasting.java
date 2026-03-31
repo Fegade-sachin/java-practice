@@ -17,8 +17,12 @@ public class UpCasting
 {
   public static void main(String[] args)
   {
-      child c=new child(); //this is upCasting
+      child c=new child(); // - This is normal object creation, not casting.
+
 
       c.display();
+
+      parent p = new child();  // this is upcasting
+      p.display();             // calls parent’s method
   }
 }

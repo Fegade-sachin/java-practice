@@ -1,7 +1,7 @@
 package PatternUsingArray;
 /*
 Q9)Prints a diamond shape made of stars.
-   *
+     *
     ***
    *****
   *******
@@ -30,7 +30,7 @@ public class DiamondStarPattern
             }
             System.out.println();
         }
-        for(int i=1;i<=n;i++)
+            for(int i=1;i<=n;i++)
         {
             for (int j=1;j<=i+1; j++)
             {
@@ -39,7 +39,6 @@ public class DiamondStarPattern
             for (int k =(2*(n-i)-1) ; k >=1; k--)
                 {
                 System.out.print("*");
-
                 }
             System.out.println();
         }

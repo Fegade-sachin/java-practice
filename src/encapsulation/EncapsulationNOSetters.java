@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 
 public final class EncapsulationNOSetters//if i make class as final inheritance is not allow
     //you can't extends of that class or not overridden

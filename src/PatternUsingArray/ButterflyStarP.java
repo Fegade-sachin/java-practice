@@ -13,6 +13,7 @@ Q10)Prints a butterfly-shaped pattern using stars (*).
 ***      ***
 **        **
 *          *
+
  */
 public class ButterflyStarP
 {

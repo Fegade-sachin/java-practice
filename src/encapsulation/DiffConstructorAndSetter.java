@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 class EncapsulationClass
 {
     private String name ; //if i declare final we need to initialized it distractedly or constructor throw

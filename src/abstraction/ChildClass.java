@@ -5,7 +5,7 @@ class parent1
     int a=10;
     parent1()
     {
-        System.out.println("parent1  Initialized");
+        System.out.println("parent1 Constructor Initialized");
         System.out.println(a);
         method1();
     }
@@ -20,7 +20,7 @@ public class ChildClass extends parent1
     int a=1;
     ChildClass()
     {
-        System.out.println("ChildClass Initialized");
+        System.out.println("ChildClass Constructor Initialized");
         System.out.println(a);
         method1();
     }

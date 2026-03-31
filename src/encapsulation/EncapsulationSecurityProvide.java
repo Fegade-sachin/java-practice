@@ -1,4 +1,4 @@
-package Encapsulation;
+package encapsulation;
 class BankAccount
 {
     //if I made variable as final you can not change a data after initialization.
