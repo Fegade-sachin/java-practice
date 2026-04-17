@@ -1,0 +1,49 @@
+Index: src/CompileTimePolymorphism/CompileTime.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/CompileTimePolymorphism/CompileTime.java b/src/CompileTimePolymorphism/CompileTime.java
+new file mode 100644
+--- /dev/null	(date 1770747289305)
++++ b/src/CompileTimePolymorphism/CompileTime.java	(date 1770747289305)
+@@ -0,0 +1,39 @@
++package CompileTimePolymorphism;
++
++public class CompileTime
++{
++   private void Overloading()
++    {
++        System.out.println("Overloading1");
++    }
++   static void  Overloading(byte a)
++    {
++        System.out.println("Overloading2");
++    }
++   final void Overloading(int a,short b)
++    {
++        System.out.println("Overloading3");
++    }
++    static final void Overloading(long a,float b,double c)
++    {
++        System.out.println("Overloading4");
++    }
++    public void Overloading(char a)
++    {
++        System.out.println("Overloading5");
++    }
++   protected void Overloading(boolean a)
++    {
++        System.out.println("Overloading6");
++    }
++    public static void main(String[] args) {
++        CompileTime obj = new CompileTime();
++        obj.Overloading();
++        obj.Overloading((byte)1 );
++        obj.Overloading(52,(short) 66);
++        obj.Overloading(55,12.0f,565000.00);
++        obj.Overloading('s');
++        obj.Overloading(false);
++
++    }
++}
