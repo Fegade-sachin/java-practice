@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54b351bd-9997-428f-ab3a-345726fb6c0f" name="Changes" comment="some more practice">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/IllegalMonitorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/LegalMonitorDemo.java" afterDir="false" />
+    <list default="true" id="54b351bd-9997-428f-ab3a-345726fb6c0f" name="Changes" comment="add this class LegalMonitorDemo">
+      <change afterPath="$PROJECT_DIR$/src/multithreading/OddEvenThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/PrintEvenOddNumberUsingTwoThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-practice/multithreading/PrintEvenOddNumberUsingTwoThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/PrintEvenOddNumberUsingTwoThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/PrintEvenOddNumberUsingTwoThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +152,7 @@
     "Application.NumberTrianglePattern.executor": "Run",
     "Application.NumberncreasingPyramidPattern.executor": "Run",
     "Application.NumberncreasingReversePyramidPattern.executor": "Run",
+    "Application.OddEvenThread.executor": "Run",
     "Application.OutsideEncapsulationNOSetters.executor": "Run",
     "Application.OverloadExample.executor": "Run",
     "Application.OverloadWithIntArrayandInt.executor": "Run",
@@ -249,20 +252,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LegalMonitorDemo">
-    <configuration name="CreatingMultipleThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.CreatingMultipleThreads" />
-      <module name="java-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.OddEvenThread">
     <configuration name="IllegalMonitorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.IllegalMonitorDemo" />
       <module name="java-practice" />
@@ -289,8 +279,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadExceptionDemo" />
+    <configuration name="OddEvenThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.OddEvenThread" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintEvenOddNumberUsingTwoThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.PrintEvenOddNumberUsingTwoThread" />
       <module name="java-practice" />
       <extension name="coverage">
         <pattern>
@@ -317,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OddEvenThread" />
+        <item itemvalue="Application.PrintEvenOddNumberUsingTwoThread" />
         <item itemvalue="Application.LegalMonitorDemo" />
         <item itemvalue="Application.IllegalMonitorDemo" />
         <item itemvalue="Application.ThreadJoinExceptionDemo" />
-        <item itemvalue="Application.ThreadExceptionDemo" />
-        <item itemvalue="Application.CreatingMultipleThreads" />
       </list>
     </recent_temporary>
   </component>
@@ -498,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776444226456</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add this class LegalMonitorDemo">
+      <option name="closed" value="true" />
+      <created>1776497463431</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1776497463431</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -523,7 +534,8 @@
     <MESSAGE value="Adding new package inside package adding Classes" />
     <MESSAGE value="Recheck program proper or not" />
     <MESSAGE value="some more practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="some more practice" />
+    <MESSAGE value="add this class LegalMonitorDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add this class LegalMonitorDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
