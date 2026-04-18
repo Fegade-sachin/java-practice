@@ -1,4 +1,4 @@
 package multithreading;
 
-public class m {
+public class ThreadExceptionDemo {
 }
