@@ -1,0 +1,1344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="54b351bd-9997-428f-ab3a-345726fb6c0f" name="Changes" comment="some more practice">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09-02-2026_14_53_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09-02-2026_14_53__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09-02-2026_14_56_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_09-02-2026_14_56__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-02-2026_23_45_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10-02-2026_23_45__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-04-2026_10_29_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-04-2026_10_29__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-04-2026_21_56_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-04-2026_21_56__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-04-2026_22_08_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17-04-2026_22_08__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/Casting/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/Casting/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/Casting/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/Casting/DownCasting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/Casting/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/Casting/UpCasting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/Casting/child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/Casting/parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/Casting/parentClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/ButterflyStarP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/DiamondStarPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/HollowDiamondPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/HollowHourglassPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/HollowReverseTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/HollowTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/KPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/LeftHalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/MirrorImageTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/NumberChangingPyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/NumberIncreasingPyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/NumberIncreasingReversePyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/NumberTrianglePatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/PalindromeTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/PascalsTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/ReverseLeftHalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/ReverseNumTranglePaern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/ReverseRightHalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/RhombusPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/RightHalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/RightPascalsTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/SquareFillPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/SquareHollowPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/SquarePatarins.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/TringleStarPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/PatternUsingArray/ZeroOneTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/abstraction/Absm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/abstraction/AbstractionRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/abstraction/ChildClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/abstraction/Subchild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/abstraction/child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/abstraction/parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/abstraction/parent1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/ConstructorAsPrivate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/DiffConstructorAndSetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/EncImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/EncapsulationClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/EncapsulationConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/EncapsulationNOSetters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/EncapsulationProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/EncapsulationRef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/EncapsulationSecurityProvide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/ImmutabilityClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/ImmutableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/InvalidAgeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/InvalidAmountException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/InvalidAmountException2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/OutsideEncapsulationNOSetters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/ReadOnlyEncapsulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/Reflation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/ValidationEncap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/WriteOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/encapsulation/ref.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/ArithExceptionClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/BeforeReturnCheckFinally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/CheckedEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/CustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/ErrorHandlingDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/FinallyInsideException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/FinallyNotExecuted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/ForInsideTryCatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/HandleErrorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/HandleErrorExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/HowclosetryWithRecourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/InvalidAgeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/InvalidAge_Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/ReturnStatInTry_FinallyBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/ReturnValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/StarvationExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/SuppressedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/ThrowAndThrowsKeywords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/TryInSideReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/TryWithRecourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/UserDefinedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/exception/userException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/five_main_ways_create_objcet/ConstructorReflectionAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/five_main_ways_create_objcet/UsingCloneMeth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/five_main_ways_create_objcet/UsingDeserialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/five_main_ways_create_objcet/UsingNewKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/five_main_ways_create_objcet/Using_Class_forName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/Appliance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/Bike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/CorrentAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/HDFC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/Refrigerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/SBI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/SavingsAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/WashingMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/apples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/developer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/hierarchicl_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/hierarchicl_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/hierarchicl_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/hierarchicl_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/hierarchicl_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/hierarchicl_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/hierarchicl_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/hierarchicl_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/hierarchicl_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/hierarchicl_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/iphone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/mango.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/mobile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/onepluse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hierarchical_Inheritance/vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Androd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Appliance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Clothes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Decima.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Education.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/ElecricCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Elecricbike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Grinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/HeavyVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Hybrid_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Hybrid_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Hybrid_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Hybrid_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Hybrid_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Hybrid_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Hybrid_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Hybrid_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Hybrid_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Inte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Machine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/Washer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/animalCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/auto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/bikeVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/bilding1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/bilding2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/bus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/car1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/car2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/city1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/city2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/clothes1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/clothes2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/collage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/dressing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/hybrid_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/iPhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/man1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/man2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/maneger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/number1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/number2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/oak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/smartEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/smartPhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/smartTv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/twoWheelerVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/vehicle1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/hybridI_nheritance/vehicle2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/Decima.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/ElecricCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/HeavyVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/Inte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/Mammal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/Stri.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/WildAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/bikeVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/bus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/cow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/four_wheeler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/maneger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/multi_level4_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/multi_level5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/multi_level6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/multi_level7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/multi_level8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/multi_level_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/multi_level_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/multi_level_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/multi_level_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/multi_level_i1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/oX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/twoWheelerVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/two_wheeler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/vehicle1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multi_level_Inheritance/vehicle2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multipulInheritance/InterfaceA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multipulInheritance/InterfaceB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multipulInheritance/MultiInheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/CreatingMultipleThreads.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/ExtendingThreadClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/IllegalMonitorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/ImplementingRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/MyRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/MyThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/NumberPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/PrintEvenOddNumberUsingTwoThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/ThreadExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/multithreading/ThreadJoinExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/ButterflyStarPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/DiamondStarPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/HollowDiamondPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/HollowHourglassPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/HollowReverseTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/HollowTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/KPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/LeftHalfPyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/MirrormageTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/NumberChangingPyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/NumberTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/NumberncreasingPyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/NumberncreasingReversePyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/PalindromeTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/PascalsTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/ReverseLeftHalfPyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/ReverseNumberTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/ReverseRightHalfPyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/RhombusPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/RightHalfPyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/RightPascalsTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/SquareFillPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/SquareHollowPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/TriangleStarPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/newpatternstarsusingarray/ZeroOneTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/AccessModifiers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/Adding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/ChildClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/ClassX$X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/ClassX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/CompileTimePolymorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/MainClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/MainClass3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/MainClass4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/MoreRestrectiveThanChild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/OverloadExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/OverloadWithIntArrayandInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/OverrideingNotMethodHiding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/OverridingMeth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/Polymorph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/PolymorphismRulesAccessModifiers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/ReParentClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/RunTimePolymorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/X1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/Y.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/Y1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/Z.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/abstractClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/parentClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphism/predefined.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/Animal2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/CalculateAverageOfArrayElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/DiffOveMethFromDupliMeth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/DoesJavaSupportOperatorOverloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/Dog2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/DyanamicBndingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/MainClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/MainClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/OverrideProtectedAsPrivate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/SubClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/SuperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/TestPolymorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/Y.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/printDashes10X10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/protectedMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/superClassMethod$SuperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion2/superClassMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/A1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/AA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/B1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/BB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/ClassA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/ClassB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/ClassOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/ConstructorOverloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/FinalMethodOverriddenOrNot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/Finalmethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/MainClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/MainClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/MainClass3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/MainClass4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/MainClass5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/ParentConstructorAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/StaticAndDynamicBinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/StaticBinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/Y.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/Z.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion3/paren.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/AB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/ABC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/ABCD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/ClassA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/ClassAA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/ClassB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/MainClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/MainClass4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/MainClass5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/MainClass6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/PQR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/WXYZ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/XY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/XYZ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/Y.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/polymorphismpracticeQuestion4/Z.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/ClassA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/ClassB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/Record1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/Record2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/bilding1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/bilding2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/car1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/car2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/city1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/city2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/clothes1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/clothes2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/man1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/man2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/number1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/number2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/oak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/persen1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/persen2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singal_Inhe1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singal_Inhe2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singal_Inhe3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singleI_Inhe4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singleI_Inhef10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singleI_Inhef5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singleI_Inhef6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singleI_Inhef6java.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singleI_Inhef7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singleI_Inhef8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/singleI_Inhef9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/singleInheritance/tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/static_Instance/InstanceBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/static_Instance/StaticInstanceBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/static_Instance/StaticKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/stringClass/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/stringClass/CloneClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/stringClass/CustomImmutableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/stringClass/CustomImmutableClassWithCloneObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/stringClass/ImmutableCls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/stringClass/PrimitiveDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/stringClass/StringEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/stringClass/StringObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-practice/stringClass/mutableCls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/Casting/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/Casting/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/Casting/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/Casting/DownCasting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/Casting/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/Casting/UpCasting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/Casting/child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/Casting/parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/Casting/parentClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/ButterflyStarP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/DiamondStarPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/HollowDiamondPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/HollowHourglassPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/HollowReverseTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/HollowTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/KPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/LeftHalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/MirrorImageTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/NumberChangingPyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/NumberIncreasingPyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/NumberIncreasingReversePyramidPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/NumberTrianglePatter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/PalindromeTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/PascalsTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/ReverseLeftHalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/ReverseNumTranglePaern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/ReverseRightHalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/RhombusPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/RightHalfPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/RightPascalsTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/SquareFillPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/SquareHollowPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/SquarePatarins.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/TringleStarPyramid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/PatternUsingArray/ZeroOneTrianglePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/abstraction/Absm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/abstraction/AbstractionRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/abstraction/ChildClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/abstraction/Subchild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/abstraction/child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/abstraction/parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/abstraction/parent1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/ConstructorAsPrivate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/DiffConstructorAndSetter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/EncImplementation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/EncapsulationClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/EncapsulationConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/EncapsulationNOSetters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/EncapsulationProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/EncapsulationRef.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/EncapsulationSecurityProvide.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/ImmutabilityClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/ImmutableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/OutsideEncapsulationNOSetters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/ReadOnlyEncapsulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/Reflation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/ValidationEncap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/WriteOnly.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/encapsulation/ref.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/ArithExceptionClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/BeforeReturnCheckFinally.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/CustomException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/ErrorHandlingDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/FinallyInsideException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/FinallyNotExecuted.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/ForInsideTryCatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/HandleErrorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/HandleErrorExample2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/HowclosetryWithRecourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/InvalidAgeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/InvalidAge_Exception.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/ReturnStatInTry_FinallyBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/ReturnValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/SuppressedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/ThrowAndThrowsKeywords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/TryInSideReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/TryWithRecourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/UserDefinedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/exception/userException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/five_main_ways_create_objcet/ConstructorReflectionAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/five_main_ways_create_objcet/UsingCloneMeth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/five_main_ways_create_objcet/UsingDeserialization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/five_main_ways_create_objcet/UsingNewKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/five_main_ways_create_objcet/Using_Class_forName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/Appliance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/Bike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/CorrentAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/HDFC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/Refrigerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/SBI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/SavingsAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/WashingMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/apples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/developer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/hierarchicl_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/hierarchicl_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/hierarchicl_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/hierarchicl_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/hierarchicl_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/hierarchicl_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/hierarchicl_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/hierarchicl_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/hierarchicl_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/hierarchicl_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/iphone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/mango.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/mobile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/onepluse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hierarchical_Inheritance/vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Androd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Appliance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Clothes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Decima.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Education.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/ElecricCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Elecricbike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Grinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/HeavyVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Hybrid_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Hybrid_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Hybrid_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Hybrid_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Hybrid_5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Hybrid_6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Hybrid_7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Hybrid_8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Hybrid_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Inte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Machine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/Washer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/animalCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/auto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/bikeVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/bilding1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/bilding2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/bus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/car1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/car2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/city1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/city2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/clothes1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/clothes2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/collage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/dressing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/hybrid_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/iPhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/man1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/man2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/maneger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/number1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/number2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/oak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/smartEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/smartPhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/smartTv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/twoWheelerVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/vehicle1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/hybridI_nheritance/vehicle2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/Decima.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/ElecricCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/HeavyVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/Inte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/Mammal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/Stri.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/WildAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/bikeVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/bus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/cow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/four_wheeler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/maneger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/multi_level4_.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/multi_level5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/multi_level6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/multi_level7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/multi_level8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/multi_level_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/multi_level_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/multi_level_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/multi_level_9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/multi_level_i1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/oX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/twoWheelerVehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/two_wheeler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/vehicle1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multi_level_Inheritance/vehicle2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multipulInheritance/InterfaceA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multipulInheritance/InterfaceB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/multipulInheritance/MultiInheritance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/AccessModifiers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/ChildClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/ClassX$X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/ClassX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/CompileTimePolymorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/MainClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/MainClass3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/MainClass4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/MoreRestrectiveThanChild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/OverloadExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/OverloadWithIntArrayandInt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/OverrideingNotMethodHiding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/OverridingMeth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/ParentClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/Polymorph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/PolymorphismRulesAccessModifiers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/ReParentClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/RunTimePolymorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/X1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/Y.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/Y1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/Z.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/abstractClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphism/predefined.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/Animal2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/CalculateAverageOfArrayElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/Cat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/DiffOveMethFromDupliMeth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/DoesJavaSupportOperatorOverloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/Dog2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/DyanamicBndingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/MainClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/MainClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/OverrideProtectedAsPrivate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/SubClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/SuperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/TestPolymorphism.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/Y.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/printDashes10X10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/protectedMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/superClassMethod$SuperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion2/superClassMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/A1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/AA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/B1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/BB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/C.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/ClassA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/ClassB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/ClassOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/ConstructorOverloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/FinalMethodOverriddenOrNot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/Finalmethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/MainClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/MainClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/MainClass3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/MainClass4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/MainClass5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/ParentConstructorAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/StaticAndDynamicBinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/StaticBinding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/Y.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/Z.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion3/paren.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/AB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/ABC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/ABCD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/ClassA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/ClassAA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/ClassB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/MainClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/MainClass4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/MainClass5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/MainClass6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/PQR.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/WXYZ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/X.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/XY.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/XYZ.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/Y.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/polymorphismpracticeQuestion4/Z.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/ClassA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/ClassB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/Record1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/Record2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/bilding1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/bilding2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/car1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/car2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/city1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/city2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/clothes1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/clothes2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/man1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/man2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/number1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/number2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/oak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/persen1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/persen2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singal_Inhe1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singal_Inhe2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singal_Inhe3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singleI_Inhe4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singleI_Inhef10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singleI_Inhef5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singleI_Inhef6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singleI_Inhef6java.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singleI_Inhef7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singleI_Inhef8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/singleI_Inhef9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/singleInheritance/tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/static_Instance/InstanceBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/static_Instance/StaticInstanceBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/static_Instance/StaticKeyword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/stringClass/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/stringClass/CloneClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/stringClass/CustomImmutableClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/stringClass/CustomImmutableClassWithCloneObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/stringClass/ImmutableCls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/stringClass/PrimitiveDataType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/stringClass/StringEx1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/stringClass/StringObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/newBasic/stringClass/mutableCls.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/CheckedEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/StarvationExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/CreatingMultipleThreads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/ExtendingThreadClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/IllegalMonitorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/LegalMonitorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/ThreadExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/ThreadExceptionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/ThreadJoinExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/ThreadJoinExceptionDemo.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="testBranch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fegade-sachin/newBasic.git&quot;,
+    &quot;accountId&quot;: &quot;01018ba0-dd7a-4a1a-a5da-7412a0603c0c&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="36qC5gz5wYtdeCfQTvTYTlGrbwk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AbstractionRules.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AccessModifiers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Adding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArithExceptionClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.B.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BeforeReturnCheckFinally.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ButterflyStarP.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ButterflyStarPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalculateAverageOfArrayElements.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CheckedEx.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Child.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChildClass (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChildClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassA.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CloneClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompileTimePolymorphism.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConstructorReflectionAPI.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreatingMultipleThreads.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomImmutableClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomImmutableClassWithCloneObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiamondStarPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiffConstructorAndSetter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DiffOveMethFromDupliMeth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DownCasting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DyanamicBndingTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncImplementation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncapsulationBreakRef.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncapsulationNOSetters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EncapsulationRef.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ErrorHandlingDemo2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ExtendingThreadClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Feflation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FinallyInsideException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FinallyNotExecuted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ForInsideTryCatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HandleErrorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HandleErrorExample2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HollowDiamondPyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HollowHourglassPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HollowReverseTrianglePattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HollowTrianglePattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hybrid_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hybrid_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hybrid_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hybrid_5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hybrid_6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hybrid_7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hybrid_8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hybrid_9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IllegalMonitorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutabilityClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableCls.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImplementingRunnable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InstanceBlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InvalidAmountException2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftHalfPyramidPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftHelfPyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MirrorImageTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MirrormageTrianglePattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoreRestrectiveThanChild.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MultipleInheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberChangingPyramidPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberIncreasingPyramidPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberIncreasingReversePyramidPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberTrianglePatter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberTrianglePattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberncreasingPyramidPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberncreasingReversePyramidPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OutsideEncapsulationNOSetters.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverloadExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverloadWithIntArrayandInt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OverridingMeth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PalindromeTrianglePattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParentConstructorAccess.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PascalsTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PolymorphismRulesAccessModifiers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimativeDataType.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintEvenOddNumberUsingTwoThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prractic.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Reflation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReturnStatInTry_FinallyBlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReturnValue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLeftHalfPyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseLeftHalfPyramidPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseNumTranglePaern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseNumberTrianglePattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseRightHalfPyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseRightHalfPyramidPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RhombusPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RightHalfPyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RightHalfPyramidPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RightPascalsTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunTimePolymorphism.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquareFillPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquareHollowPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SquarePatarins.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StarvationExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticAndDynamicBinding.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticInstanceBlock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StaticKeyword.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEx1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Subchild.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SuppressedException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExceptionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadExceptionJoinDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreadJoinExceptionDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThrowAndThrowsKeywords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TriangleStarPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TringleStarPyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryInSideReturn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TryWithRecourse.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnrecoverableErrorDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UpCasting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UserDefinedException.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsingCloneMeth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UsingDeserialization.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Using_Class_forName.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidationEncap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Y.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Z.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZeroOneTrianglePattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.abstractClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hierarchicl_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hierarchicl_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hierarchicl_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hierarchicl_7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hierarchicl_8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hybrid_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multi_level4_.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multi_level6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multi_level7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multi_level8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multi_level_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multi_level_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multi_level_9.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multi_level_i1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.multil_lev.executor&quot;: &quot;Run&quot;,
+    &quot;Application.polymorphism.MainClass4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.printDashes10X10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.singal_Inhe1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.singal_Inhe2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.singleI_Inhef10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.singleI_Inhef5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.singleI_Inhef6java.executor&quot;: &quot;Run&quot;,
+    &quot;Application.singleI_Inhef9.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;ToolWindow.Run.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/surya/IdeaProjects/java-practice&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/surya/IdeaProjects/newBasic/src/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.log&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Application.ThreadExceptionDemo">
+    <configuration name="CreatingMultipleThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.CreatingMultipleThreads" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IllegalMonitorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.IllegalMonitorDemo" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadExceptionDemo" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadExceptionJoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadExceptionJoinDemo" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadJoinExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadJoinExceptionDemo" />
+      <module name="java-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ThreadExceptionDemo" />
+        <item itemvalue="Application.ThreadJoinExceptionDemo" />
+        <item itemvalue="Application.IllegalMonitorDemo" />
+        <item itemvalue="Application.CreatingMultipleThreads" />
+        <item itemvalue="Application.ThreadExceptionJoinDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="ShelveChangesManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54b351bd-9997-428f-ab3a-345726fb6c0f" name="Changes" comment="" />
+      <created>1765724534548</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765724534548</updated>
+    </task>
+    <task id="LOCAL-00001" summary="add project">
+      <option name="closed" value="true" />
+      <created>1770622762864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1770622762864</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add project">
+      <option name="closed" value="true" />
+      <created>1770623268897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770623268897</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add project">
+      <option name="closed" value="true" />
+      <created>1770623292898</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770623292898</updated>
+    </task>
+    <task id="LOCAL-00004" summary="adding Static and instance block">
+      <option name="closed" value="true" />
+      <created>1770629482145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1770629482145</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding Static and instance block">
+      <option name="closed" value="true" />
+      <created>1770882350198</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1770882350198</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding Static and instance block">
+      <option name="closed" value="true" />
+      <created>1770999510749</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770999510749</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test changes">
+      <option name="closed" value="true" />
+      <created>1771148960295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1771148960295</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test changes">
+      <option name="closed" value="true" />
+      <created>1771149386074</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1771149386074</updated>
+    </task>
+    <task id="LOCAL-00009" summary="test changes">
+      <option name="closed" value="true" />
+      <created>1771149653595</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1771149653595</updated>
+    </task>
+    <task id="LOCAL-00010" summary=" another class added">
+      <option name="closed" value="true" />
+      <created>1771153053823</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771153053823</updated>
+    </task>
+    <task id="LOCAL-00011" summary=" another class added">
+      <option name="closed" value="true" />
+      <created>1771153254574</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1771153254574</updated>
+    </task>
+    <task id="LOCAL-00012" summary="check commit">
+      <option name="closed" value="true" />
+      <created>1771160541146</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771160541146</updated>
+    </task>
+    <task id="LOCAL-00013" summary="check commit">
+      <option name="closed" value="true" />
+      <created>1771161654874</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771161654874</updated>
+    </task>
+    <task id="LOCAL-00014" summary="check commit">
+      <option name="closed" value="true" />
+      <created>1771182630146</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771182630146</updated>
+    </task>
+    <task id="LOCAL-00015" summary="check commit">
+      <option name="closed" value="true" />
+      <created>1771182656570</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1771182656570</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adding new package inside package adding Classes">
+      <option name="closed" value="true" />
+      <created>1771665971576</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1771665971576</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Recheck program proper or not">
+      <option name="closed" value="true" />
+      <created>1771914797617</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1771914797617</updated>
+    </task>
+    <task id="LOCAL-00018" summary="some more practice">
+      <option name="closed" value="true" />
+      <created>1774945401744</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1774945401744</updated>
+    </task>
+    <task id="LOCAL-00019" summary="some more practice">
+      <option name="closed" value="true" />
+      <created>1776444226456</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1776444226456</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add project" />
+    <MESSAGE value="adding Static and instance block" />
+    <MESSAGE value="Adding One class" />
+    <MESSAGE value="test changes" />
+    <MESSAGE value="add method" />
+    <MESSAGE value=" another class added" />
+    <MESSAGE value="check commit" />
+    <MESSAGE value="Adding new package inside package adding Classes" />
+    <MESSAGE value="Recheck program proper or not" />
+    <MESSAGE value="some more practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="some more practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exception/UserDefinedException.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
