@@ -1,0 +1,1565 @@
+Index: src/multithreading/PrintEvenOddNumberUsingTwoThread.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package multithreading;\r\n\r\npublic class PrintEvenOddNumberUsingTwoThread {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/multithreading/PrintEvenOddNumberUsingTwoThread.java b/src/multithreading/PrintEvenOddNumberUsingTwoThread.java
+--- a/src/multithreading/PrintEvenOddNumberUsingTwoThread.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/multithreading/PrintEvenOddNumberUsingTwoThread.java	(date 1776237636014)
+@@ -1,4 +1,48 @@
+ package multithreading;
+ 
+-public class PrintEvenOddNumberUsingTwoThread {
+-}
++    class NumberPrinter {
++
++        int number = 1;
++        int limit = 10;
++
++        // print odd numbers
++        synchronized void printOdd() {
++            while (number <= limit) {
++
++                if (number % 2 == 0) {
++                    try { wait(); } catch (Exception e) {}
++                } else {
++                    System.out.println("Odd: " + number);
++                    number++;
++                    notify();
++                }
++            }
++        }
++
++        // print even numbers
++        synchronized void printEven() {
++            while (number <= limit) {
++
++                if (number % 2 != 0) {
++                    try { wait(); } catch (Exception e) {}
++                } else {
++                    System.out.println("Even: " + number);
++                    number++;
++                    notify();
++                }
++            }
++        }
++    }
++
++    public class PrintEvenOddNumberUsingTwoThread {
++        public static void main(String[] args) {
++
++            NumberPrinter obj = new NumberPrinter();
++
++            Thread t1 = new Thread(() -> obj.printOdd());
++            Thread t2 = new Thread(() -> obj.printEven());
++
++            t1.start();
++            t2.start();
++        }
++    }
+Index: src/multithreading/ThreadJoinExceptionDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package multithreading;\r\npublic class ThreadExceptionJoinDemo extends Thread {\r\n    public static void main(String[] args) throws InterruptedException {\r\n        ThreadExceptionDemo t1 = new ThreadExceptionDemo();\r\n        t1.setName(\"Thread1\");\r\n\r\n        t1.start();\r\n        t1.join();\r\n\r\n        // IllegalThreadStateException: cannot start a thread twice\r\n        t1.start();\r\n    }\r\n\r\n    @Override\r\n    public void run() {\r\n        System.out.println(\"Running \" + Thread.currentThread().getName());\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/multithreading/ThreadJoinExceptionDemo.java b/src/multithreading/ThreadJoinExceptionDemo.java
+--- a/src/multithreading/ThreadJoinExceptionDemo.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/multithreading/ThreadJoinExceptionDemo.java	(date 1776363824515)
+@@ -1,14 +1,12 @@
+ package multithreading;
+-public class ThreadExceptionJoinDemo extends Thread {
++public class ThreadJoinExceptionDemo extends Thread {
+     public static void main(String[] args) throws InterruptedException {
+-        ThreadExceptionDemo t1 = new ThreadExceptionDemo();
+-        t1.setName("Thread1");
++        ThreadJoinExceptionDemo t2 = new ThreadJoinExceptionDemo();
++        t2.setName("Thread2");
+ 
+-        t1.start();
+-        t1.join();
+-
+-        // IllegalThreadStateException: cannot start a thread twice
+-        t1.start();
++        // Calling join before start leads to the main thread waiting forever
++        t2.join(); // Deadlock-like behavior
++        t2.start();
+     }
+ 
+     @Override
+Index: src/multithreading/ThreadExceptionDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package multithreading;\r\n\r\npublic class m {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/multithreading/ThreadExceptionDemo.java b/src/multithreading/ThreadExceptionDemo.java
+--- a/src/multithreading/ThreadExceptionDemo.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/multithreading/ThreadExceptionDemo.java	(date 1776363770380)
+@@ -1,4 +1,18 @@
+ package multithreading;
++public class ThreadExceptionDemo extends Thread {
++    public static void main(String[] args) throws InterruptedException {
++        ThreadExceptionDemo t1 = new ThreadExceptionDemo();
++        t1.setName("Thread1");
++
++        t1.start();
++        t1.join();
+ 
+-public class m {
++        // Starting the same thread again causes IllegalThreadStateException
++        t1.start();
++    }
++
++    @Override
++    public void run() {
++        System.out.println("Running " + Thread.currentThread().getName());
++    }
+ }
+Index: src/multithreading/IllegalMonitorDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package multithreading;\r\n\r\npublic class jh {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/multithreading/IllegalMonitorDemo.java b/src/multithreading/IllegalMonitorDemo.java
+--- a/src/multithreading/IllegalMonitorDemo.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/multithreading/IllegalMonitorDemo.java	(date 1776400520528)
+@@ -1,4 +1,15 @@
+ package multithreading;
+ 
+-public class jh {
++public class IllegalMonitorDemo {
++    public static void main(String[] args) {
++        Object lock = new Object();
++
++        // Calling wait() without synchronized block
++        try {
++            lock.wait();  // This will throw IllegalMonitorStateException
++        } catch (InterruptedException e) {
++            e.printStackTrace();
++        }
++        //we need to call wait or write inside synchronized block
++    }
+ }
+Index: src/multithreading/CreatingMultipleThreads.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package multithreading;\r\n\r\npublic class n {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/multithreading/CreatingMultipleThreads.java b/src/multithreading/CreatingMultipleThreads.java
+--- a/src/multithreading/CreatingMultipleThreads.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/multithreading/CreatingMultipleThreads.java	(date 1776398041986)
+@@ -1,4 +1,27 @@
+ package multithreading;
+ 
+-public class n {
++public class CreatingMultipleThreads extends Thread {
++    public static void main(String[] args) throws InterruptedException {
++        CreatingMultipleThreads thread1 = new CreatingMultipleThreads();
++        thread1.setName("Thread1");
++        thread1.setPriority(1); // minimum priority
++
++        CreatingMultipleThreads thread2 = new CreatingMultipleThreads();
++        thread2.setName("Thread2");
++        thread2.setPriority(10); // maximum priority
++
++        // Start thread1 and wait until it finishes
++        thread1.start();
++        thread1.join();
++
++        // Then start thread2
++        thread2.start();
++    }
++
++    @Override
++    public void run() {
++        for (int i = 0; i < 3; i++) {
++            System.out.println("Count is " + i + " And Name is " + Thread.currentThread().getName());
++        }
++    }
+ }
+Index: src/multithreading/LegalMonitorDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package multithreading;\r\n\r\npublic class jk {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/multithreading/LegalMonitorDemo.java b/src/multithreading/LegalMonitorDemo.java
+--- a/src/multithreading/LegalMonitorDemo.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/multithreading/LegalMonitorDemo.java	(date 1776400592922)
+@@ -1,4 +1,15 @@
+ package multithreading;
+ 
+-public class jk {
++public class LegalMonitorDemo {
++    public static void main(String[] args) {
++        Object lock = new Object();
++
++        synchronized (lock) {
++            try {
++                lock.wait();  //Safe, because we hold the lock
++            } catch (InterruptedException e) {
++                e.printStackTrace();
++            }
++        }
++    }
+ }
+Index: src/encapsulation/ConstructorAsPrivate.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package encapsulation;\r\n\r\nfinal class EncapsulationConstructor\r\n{\r\n    final private int empid;\r\n    public int getEmpid() {\r\n        return empid;\r\n    }\r\n    private EncapsulationConstructor(int empid)\r\n    {\r\n        this.empid = empid;\r\n    }\r\n\r\n    public static void main(String[] args)\r\n    {\r\n        new EncapsulationConstructor(65);\r\n    }\r\n\r\n}\r\npublic class ConstructorAsPrivate\r\n{\r\n   // new  EncapsulationConstructor(23);//you cannot create constructor outside the class because it is private\r\n    public static void main(String[] args)\r\n    {\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/encapsulation/ConstructorAsPrivate.java b/src/encapsulation/ConstructorAsPrivate.java
+--- a/src/encapsulation/ConstructorAsPrivate.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/encapsulation/ConstructorAsPrivate.java	(date 1776074608464)
+@@ -19,7 +19,7 @@
+ }
+ public class ConstructorAsPrivate
+ {
+-   // new  EncapsulationConstructor(23);//you cannot create constructor outside the class because it is private
++   // new  EncapsulationConstructor(23);//you cannot create object outside the class because it is constructor is private
+     public static void main(String[] args)
+     {
+ 
+Index: src/encapsulation/DiffConstructorAndSetter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package encapsulation;\r\nclass EncapsulationClass\r\n{\r\n    private String name ; //if i declare final we need to initialized it distractedly or constructor throw\r\n    private double balance;\r\n    public EncapsulationClass(String name, double balance) {\r\n        this.name = name;\r\n        if(balance < 0)//Ensures valid state\r\n        {\r\n          //  throw new IllegalArgumentException(\"balance cannot be negative\");\r\n        }\r\n        this.balance = balance;\r\n    }//initialized object\r\n\r\n    public String getName()//used for get the value\r\n    {\r\n        return name;\r\n    }\r\n    public void setName(String name)//if i declare variable as final we can not provide implementation throw setters\r\n    {\r\n        this.name = name;\r\n    }\r\n    public double getBalance()\r\n        {\r\n        return balance;\r\n        }\r\n        public  void setBalance(double balance)\r\n        {\r\n            if(balance < 0)//Ensures valid state\r\n            {\r\n               // throw new IllegalArgumentException(\"balance cannot be negative\");\r\n                //adding validation in setter makes it safer,but the object is still mutable.\r\n                //object can change any time  multiple variable dependency problem\r\n                //thread sefty issue.\r\n            }\r\n            this.balance = balance;\r\n        }\r\n}\r\n    public class DiffConstructorAndSetter\r\n    {\r\n        public static void main(String[] args   ) {\r\n           EncapsulationClass e=new EncapsulationClass(\"abc\", -12.34);//object will not created.\r\n\r\n            EncapsulationClass f=new EncapsulationClass(\"ilc\", 15.24);\r\n            f.setBalance(-12.34);//constructor protected it stat,but setter destroyed consistency later\r\n\r\n            EncapsulationClass en = new EncapsulationClass(\"sachin\",6546.55);//each constructor can modify only once\r\n            //otherwise you nooed to create new object if you want to Reassign value you need to creat another object\r\n            System.out.println(en.getName());\r\n            en.setName(\"sham\");\r\n            System.out.println(en.getName());\r\n            en.setName(\"krishna\");\r\n            System.out.println(en.getName());\r\n\r\n        }\r\n    }\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/encapsulation/DiffConstructorAndSetter.java b/src/encapsulation/DiffConstructorAndSetter.java
+--- a/src/encapsulation/DiffConstructorAndSetter.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/encapsulation/DiffConstructorAndSetter.java	(date 1776075457416)
+@@ -7,7 +7,7 @@
+         this.name = name;
+         if(balance < 0)//Ensures valid state
+         {
+-          //  throw new IllegalArgumentException("balance cannot be negative");
++            throw new IllegalArgumentException("balance cannot be negative");
+         }
+         this.balance = balance;
+     }//initialized object
+@@ -28,7 +28,7 @@
+         {
+             if(balance < 0)//Ensures valid state
+             {
+-               // throw new IllegalArgumentException("balance cannot be negative");
++               throw new IllegalArgumentException("balance cannot be negative");
+                 //adding validation in setter makes it safer,but the object is still mutable.
+                 //object can change any time  multiple variable dependency problem
+                 //thread sefty issue.
+@@ -39,13 +39,13 @@
+     public class DiffConstructorAndSetter
+     {
+         public static void main(String[] args   ) {
+-           EncapsulationClass e=new EncapsulationClass("abc", -12.34);//object will not created.
++           EncapsulationClass e=new EncapsulationClass("abc", -12.34);//we cannot initialize negative number Because of validation
+ 
+             EncapsulationClass f=new EncapsulationClass("ilc", 15.24);
+             f.setBalance(-12.34);//constructor protected it stat,but setter destroyed consistency later
+ 
+             EncapsulationClass en = new EncapsulationClass("sachin",6546.55);//each constructor can modify only once
+-            //otherwise you nooed to create new object if you want to Reassign value you need to creat another object
++            //otherwise you nooed to create new object if you want to Reassign value you need to create new  another object
+             System.out.println(en.getName());
+             en.setName("sham");
+             System.out.println(en.getName());
+Index: src/exception/CheckedEx.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package exception;\r\n\r\npublic class d {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/exception/CheckedEx.java b/src/exception/CheckedEx.java
+--- a/src/exception/CheckedEx.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/exception/CheckedEx.java	(date 1776074608438)
+@@ -1,4 +1,15 @@
+ package exception;
++public  class CheckedEx {
++    public static void jump() {
++        System.out.println("Dil jumping zapak jampak jampak");
++    }
+ 
+-public class d {
++/*public static void main(String args[]) {
++    try {
++        jump();
++    } catch(IOException ioe) {
++        ioe.printStackTrace();
++    }
+ }
++*/
++}
+\ No newline at end of file
+Index: src/exception/StarvationExample.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package exception;\r\n\r\npublic class g {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/exception/StarvationExample.java b/src/exception/StarvationExample.java
+--- a/src/exception/StarvationExample.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/exception/StarvationExample.java	(date 1776152246853)
+@@ -1,4 +1,23 @@
+ package exception;
+ 
+-public class g {
+-}
++public class StarvationExample {
++    public static void main(String[] args) {
++        Thread high = new Thread(() -> {
++            while (true) {
++                System.out.println("High priority running");
++            }
++        });
++
++        Thread low = new Thread(() -> {
++            while (true) {
++                System.out.println("Low priority running");
++            }
++        });
++
++        high.setPriority(Thread.MAX_PRIORITY);
++        low.setPriority(Thread.MIN_PRIORITY);
++
++        high.start();
++        low.start();
++    }
++}
+\ No newline at end of file
+Index: src/multithreading/ExtendingThreadClass.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package multithreading;\r\n\r\npublic class ExtendingThreadclass {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/multithreading/ExtendingThreadClass.java b/src/multithreading/ExtendingThreadClass.java
+--- a/src/multithreading/ExtendingThreadClass.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/multithreading/ExtendingThreadClass.java	(date 1776231407820)
+@@ -1,4 +1,19 @@
+ package multithreading;
+ 
+-public class ExtendingThreadclass {
++
++class MyThread extends Thread
++    {
++        public void run()
++        {
++            System.out.println("Thread running...");
++        }
++    }
++public class ExtendingThreadClass
++{
++        public static void main(String[] args)
++        {
++            MyThread t = new MyThread();
++            t.start(); // creates new thread
++        }
+ }
++
+Index: src/multithreading/ImplementingRunnable.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package multithreading;\r\n\r\npublic class ImplementingRunnable {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/multithreading/ImplementingRunnable.java b/src/multithreading/ImplementingRunnable.java
+--- a/src/multithreading/ImplementingRunnable.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/multithreading/ImplementingRunnable.java	(date 1776231865756)
+@@ -1,4 +1,16 @@
+ package multithreading;
+ 
+-public class ImplementingRunnable {
++class MyRunnable implements Runnable {
++    public void run() {
++        System.out.println("Runnable running...");
++    }
+ }
++
++public class ImplementingRunnable
++{
++    public static void main(String[] args)
++    {
++        Thread t = new Thread(new MyRunnable());
++        t.start();
++    }
++}
+\ No newline at end of file
+Index: src/newpatternstarsusingarray/SquareHollowPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class SquareHollowPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/SquareHollowPattern.java b/src/newpatternstarsusingarray/SquareHollowPattern.java
+--- a/src/newpatternstarsusingarray/SquareHollowPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/SquareHollowPattern.java	(date 1775208802771)
+@@ -1,4 +1,21 @@
+ package newpatternstarsusingarray;
+ 
+-public class SquareHollowPattern {
++public class SquareHollowPattern
++{
++    public static void main(String[] args) {
++        int n=6;
++        for (int i = 0; i < n; i++) {
++            for (int j = 0; j < n; j++) {
++                if( i==0     ||   j==0  || i==n-1 ||j==n-1)
++                {
++                    System.out.print("*");
++                }
++                else
++                {
++                    System.out.print(" ");
++                }
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/NumberTrianglePattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class NumberTrianglePattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/NumberTrianglePattern.java b/src/newpatternstarsusingarray/NumberTrianglePattern.java
+--- a/src/newpatternstarsusingarray/NumberTrianglePattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/NumberTrianglePattern.java	(date 1775209591633)
+@@ -1,4 +1,21 @@
+ package newpatternstarsusingarray;
+ 
+-public class NumberTrianglePattern {
++public class NumberTrianglePattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for (int i = 1; i <= n; i++)
++        {
++            for (int j =i ; j <=n; j++)
++            {
++                System.out.print(" ");
++            }
++            for (int j = 1; j <= i; j++)
++            {
++                System.out.print(i+" ");
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/NumberncreasingReversePyramidPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class NumberncreasingReversePyramidPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/NumberncreasingReversePyramidPattern.java b/src/newpatternstarsusingarray/NumberncreasingReversePyramidPattern.java
+--- a/src/newpatternstarsusingarray/NumberncreasingReversePyramidPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/NumberncreasingReversePyramidPattern.java	(date 1775210307561)
+@@ -1,4 +1,25 @@
+ package newpatternstarsusingarray;
+-
+-public class NumberncreasingReversePyramidPattern {
++/*
++    Output
++1 2 3 4 5 6
++1 2 3 4 5
++1 2 3 4
++1 2 3
++1 2
++1
++ */
++public class NumberncreasingReversePyramidPattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int i=6 ; i>=1 ; i--)
++        {
++            for(int j=1; j<=i; j++)
++            {
++                System.out.print(j+" ");
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/NumberncreasingPyramidPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class NumberncreasingPyramidPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/NumberncreasingPyramidPattern.java b/src/newpatternstarsusingarray/NumberncreasingPyramidPattern.java
+--- a/src/newpatternstarsusingarray/NumberncreasingPyramidPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/NumberncreasingPyramidPattern.java	(date 1775209892576)
+@@ -1,4 +1,25 @@
+ package newpatternstarsusingarray;
+-
+-public class NumberncreasingPyramidPattern {
++/*
++    Output
++1
++1 2
++1 2 3
++1 2 3 4
++1 2 3 4 5
++1 2 3 4 5 6
++ */
++public class NumberncreasingPyramidPattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for (int i = 1; i <= n; i++)
++            {
++                for (int j = 1; j <= i; j++)
++                {
++                    System.out.print(j+" ");
++                }
++                System.out.println();
++            }
++    }
+ }
+Index: src/newpatternstarsusingarray/ZeroOneTrianglePattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class ZeroOneTrianglePattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/ZeroOneTrianglePattern.java b/src/newpatternstarsusingarray/ZeroOneTrianglePattern.java
+--- a/src/newpatternstarsusingarray/ZeroOneTrianglePattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/ZeroOneTrianglePattern.java	(date 1775211401382)
+@@ -1,4 +1,24 @@
+ package newpatternstarsusingarray;
+ 
+-public class ZeroOneTrianglePattern {
++public class ZeroOneTrianglePattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int i =1 ; i <=n ;  i++)
++        {
++            for(int j=1; j<=i; j++)
++                {
++                    if((i+j)%2==0)
++                    {
++                        System.out.print(1+" ");
++                    }
++                    else
++                    {
++                        System.out.print(0+" ");
++                    }
++                }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/NumberChangingPyramidPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class NumberChangingPyramidPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/NumberChangingPyramidPattern.java b/src/newpatternstarsusingarray/NumberChangingPyramidPattern.java
+--- a/src/newpatternstarsusingarray/NumberChangingPyramidPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/NumberChangingPyramidPattern.java	(date 1775210595399)
+@@ -1,4 +1,27 @@
+ package newpatternstarsusingarray;
+-
+-public class NumberChangingPyramidPattern {
++/*
++    Output
++1
++2 3
++4 5 6
++7 8 9 10
++11 12 13 14 15
++16 17 18 19 20 21
++ */
++public class NumberChangingPyramidPattern
++{
++    public static void main(String args[])
++    {
++        int n=6;
++        int count=1;
++        for (int i = 1; i <= n; i++)
++        {
++            for(int j=1; j<=i; j++)
++                {
++                System.out.print(count+" ");
++                count++;
++                }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/RhombusPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class RhombusPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/RhombusPattern.java b/src/newpatternstarsusingarray/RhombusPattern.java
+--- a/src/newpatternstarsusingarray/RhombusPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/RhombusPattern.java	(date 1775212521862)
+@@ -1,4 +1,20 @@
+ package newpatternstarsusingarray;
+ 
+-public class RhombusPattern {
++public class RhombusPattern
++{
++    public static void main(String[] args)
++    {
++        int n= 6;
++        for(int i = 1 ; i <=n ; i ++)
++        {
++            for(int j = n ; j >=i ; j--)
++            {
++                System.out.print(" ");
++            }
++            for(int j = 1 ; j <n ; j++) {
++                System.out.print("*");
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/PalindromeTrianglePattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class PalindromeTrianglePattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/PalindromeTrianglePattern.java b/src/newpatternstarsusingarray/PalindromeTrianglePattern.java
+--- a/src/newpatternstarsusingarray/PalindromeTrianglePattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/PalindromeTrianglePattern.java	(date 1775212108339)
+@@ -1,4 +1,33 @@
+ package newpatternstarsusingarray;
+ 
+-public class PalindromeTrianglePattern {
++/*
++    Output
++          1
++        2 1 2
++      3 2 1 2 3
++    4 3 2 1 2 3 4
++  5 4 3 2 1 2 3 4 5
++6 5 4 3 2 1 2 3 4 5 6
++ */
++public class PalindromeTrianglePattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int i=1;i<=n;i++)
++        {
++            for(int j=n;j>=i;j--)
++            {
++                System.out.print("  ");
++            }
++            for (int j=i;j>=2;j--) {
++                System.out.print(j+" ");
++            }
++            for (int j=1;j<=i;j++)
++            {
++                System.out.print(j+" ");
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/ButterflyStarPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class ButterflyStarPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/ButterflyStarPattern.java b/src/newpatternstarsusingarray/ButterflyStarPattern.java
+--- a/src/newpatternstarsusingarray/ButterflyStarPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/ButterflyStarPattern.java	(date 1775216642621)
+@@ -1,4 +1,56 @@
+ package newpatternstarsusingarray;
++/*
++    Output
++*          *
++**        **
++***      ***
++****    ****
++*****  *****
++************
++************
++*****  *****
++****    ****
++***      ***
++**        **
++*          *
++ */
++public class ButterflyStarPattern
++{
++    public static void main(String args[])
++    {
++        int n=6;
++        for(int i = 1 ; i<n ; i ++)
++        {
++            for(int j = 1 ; j<= 2 * n ; j++)
++            {
++                if (j > i && j<=2 * n-i)
++                {
++                    System.out.print(" ");
++                }
++                else
++                {
++                    System.out.print("*");
++                }
++            }
++            System.out.println();
++        }
++        for(int i = n ; i>= 1 ; i --)
++        {
++            for(int j = 1 ; j<= 2 * n ; j++)
++            {
++                if (j > i && j<=2 * n-i)
++                {
++                    System.out.print(" ");
++                }
++                else
++                {
++                    System.out.print("*");
++                }
++            }
++            System.out.println();
++        }
++
+ 
+-public class ButterflyStarPattern {
++    }
++
+ }
+Index: src/newpatternstarsusingarray/DiamondStarPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class DiamondStarPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/DiamondStarPattern.java b/src/newpatternstarsusingarray/DiamondStarPattern.java
+--- a/src/newpatternstarsusingarray/DiamondStarPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/DiamondStarPattern.java	(date 1775214556648)
+@@ -1,4 +1,46 @@
+ package newpatternstarsusingarray;
++/*
++    Output
++     *
++    ***
++   *****
++  *******
++ *********
++***********
++ *********
++  *******
++   *****
++    ***
++     *
++ */
++public class DiamondStarPattern
++{
++    public static void main(String[] args) {
++        int n=6;
++        for(int i = 1 ; i <=n ; i ++)
++        {
++            for(int j = i ; j <=n-1 ; j++)
++            {
++                System.out.print(" ");
++            }
++            for(int k = 1; k <=2*i-1 ; k++)
++            {
++                System.out.print("*");
++            }
++            System.out.println();
++        }
++        for (int i = n-1; i >=1 ; i --)
++        {
++            for(int j = n-1 ; j >=i ; j--)
++                {
++                System.out.print(" ");
++                }
++            for(int k = 2*i-1; k >=1; k--)
++                {
++                System.out.print("*");
++                }
++            System.out.println();
++        }
+ 
+-public class DiamondStarPattern {
++    }
+ }
+Index: src/newpatternstarsusingarray/RightHalfPyramidPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class RightHalfPyramidPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/RightHalfPyramidPattern.java b/src/newpatternstarsusingarray/RightHalfPyramidPattern.java
+--- a/src/newpatternstarsusingarray/RightHalfPyramidPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/RightHalfPyramidPattern.java	(date 1775297884713)
+@@ -1,4 +1,25 @@
+ package newpatternstarsusingarray;
+-
+-public class RightHalfPyramidPattern {
++/*
++Output
++*
++**
++***
++****
++*****
++******
++ */
++public class RightHalfPyramidPattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int i = 1 ; i<=n ; i ++)
++        {
++            for(int j = 1 ; j<=i ; j++)
++            {
++                System.out.print("*");
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/Casting/UpCasting.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Casting;\r\nclass parent\r\n{\r\n    void  display()\r\n    {\r\n        System.out.println(\"display parent class method\");\r\n    }\r\n}\r\nclass child extends parent\r\n{\r\n     void Display()\r\n    {\r\n     System.out.println(\"display child class method\");\r\n    }\r\n}\r\npublic class UpCasting\r\n{\r\n  public static void main(String[] args)\r\n  {\r\n      child c=new child(); // - This is normal object creation, not casting.\r\n\r\n\r\n      c.display();\r\n\r\n      parent p = new child();  // this is upcasting\r\n      p.display();             // calls parent’s method\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Casting/UpCasting.java b/src/Casting/UpCasting.java
+--- a/src/Casting/UpCasting.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/Casting/UpCasting.java	(date 1776073804348)
+@@ -8,7 +8,7 @@
+ }
+ class child extends parent
+ {
+-     void Display()
++     void display()
+     {
+      System.out.println("display child class method");
+     }
+@@ -19,7 +19,6 @@
+   {
+       child c=new child(); // - This is normal object creation, not casting.
+ 
+-
+       c.display();
+ 
+       parent p = new child();  // this is upcasting
+Index: src/newpatternstarsusingarray/SquareFillPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic interface SquareFillPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/SquareFillPattern.java b/src/newpatternstarsusingarray/SquareFillPattern.java
+--- a/src/newpatternstarsusingarray/SquareFillPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/SquareFillPattern.java	(date 1775297086308)
+@@ -1,4 +1,25 @@
+ package newpatternstarsusingarray;
+-
+-public interface SquareFillPattern {
++/*
++Output
++******
++******
++******
++******
++******
++******
++ */
++public class SquareFillPattern
++{
++    public static void main(String[] args)
++    {
++     int n=6;
++     for(int i=1 ; i<n ; i ++)
++     {
++         for(int j=1 ; j<n ; j++)
++             {
++             System.out.print("*");
++             }
++         System.out.println();
++     }
++    }
+ }
+Index: src/newpatternstarsusingarray/LeftHalfPyramidPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class LeftHalfPyramidPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/LeftHalfPyramidPattern.java b/src/newpatternstarsusingarray/LeftHalfPyramidPattern.java
+--- a/src/newpatternstarsusingarray/LeftHalfPyramidPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/LeftHalfPyramidPattern.java	(date 1775298482109)
+@@ -1,4 +1,29 @@
+ package newpatternstarsusingarray;
++/*
++Output
++     *
++    **
++   ***
++  ****
++ *****
++******
++ */
++public class LeftHalfPyramidPattern
++{
++    public static void main(String[] args) {
++        int n=5;
++        for(int i = 1 ; i <=n ; i ++)
++        {
++            for(int j = n ; j >=i ; j--)
++            {
++                System.out.print(" ");
++            }
++            for(int k = 1 ; k <= i ; k++)
++                {
++                System.out.print("*");
++                }
++            System.out.println();
+ 
+-public class LeftHalfPyramidPattern {
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/ReverseRightHalfPyramidPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class ReverseRightHalfPyramidPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/ReverseRightHalfPyramidPattern.java b/src/newpatternstarsusingarray/ReverseRightHalfPyramidPattern.java
+--- a/src/newpatternstarsusingarray/ReverseRightHalfPyramidPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/ReverseRightHalfPyramidPattern.java	(date 1775298179073)
+@@ -1,4 +1,17 @@
+ package newpatternstarsusingarray;
+ 
+-public class ReverseRightHalfPyramidPattern {
++public class ReverseRightHalfPyramidPattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int i=n ; i >-1; i--)
++        {
++            for(int j=1 ; j <= i ; j++)
++            {
++                System.out.print("*");
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/TriangleStarPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class TriangleStarPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/TriangleStarPattern.java b/src/newpatternstarsusingarray/TriangleStarPattern.java
+--- a/src/newpatternstarsusingarray/TriangleStarPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/TriangleStarPattern.java	(date 1775301532850)
+@@ -1,4 +1,29 @@
+ package newpatternstarsusingarray;
+-
+-public class TriangleStarPattern {
++/*
++    Output
++     *
++    * *
++   * * *
++  * * * *
++ * * * * *
++* * * * * *
++ */
++public class TriangleStarPattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int i=1; i<=n ; i ++)
++            {
++            for(int j=i; j<=n; j++)
++            {
++                System.out.print(" ");
++            }
++            for(int j=1; j<=i; j++)
++            {
++                System.out.print("* ");
++            }
++            System.out.println();
++            }
++    }
+ }
+Index: src/newpatternstarsusingarray/ReverseLeftHalfPyramidPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class ReverseLeftHalfPyramidPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/ReverseLeftHalfPyramidPattern.java b/src/newpatternstarsusingarray/ReverseLeftHalfPyramidPattern.java
+--- a/src/newpatternstarsusingarray/ReverseLeftHalfPyramidPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/ReverseLeftHalfPyramidPattern.java	(date 1775301016372)
+@@ -1,4 +1,29 @@
+ package newpatternstarsusingarray;
+-
+-public class ReverseLeftHalfPyramidPattern {
++/*
++    Output
++******
++ *****
++  ****
++   ***
++    **
++     *
++ */
++public class ReverseLeftHalfPyramidPattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int i = n ; i >=1 ; i --)
++        {
++            for(int j=n; j>=i; j --)
++                {
++                System.out.print(" ");
++                }
++            for(int k=i; k>=1; k--)
++                {
++                System.out.print("*");
++                }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/MirrormageTrianglePattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class MirrormageTrianglePattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/MirrormageTrianglePattern.java b/src/newpatternstarsusingarray/MirrormageTrianglePattern.java
+--- a/src/newpatternstarsusingarray/MirrormageTrianglePattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/MirrormageTrianglePattern.java	(date 1775310535623)
+@@ -1,4 +1,46 @@
+ package newpatternstarsusingarray;
+-
+-public class MirrormageTrianglePattern {
++/*
++Output
++1 2 3 4 5 6
++ 2 3 4 5 6
++  3 4 5 6
++   4 5 6
++    5 6
++     6
++    5 6
++   4 5 6
++  3 4 5 6
++ 2 3 4 5 6
++1 2 3 4 5 6
++ */
++public class MirrormageTrianglePattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int k=1; k <= n; k++)
++        {
++                for(int j=1; j <= k; j++)
++                {
++                    System.out.print(" ");
++                }
++                for(int j=k; j <= n; j++)
++                {
++                    System.out.print(j+" ");
++                }
++            System.out.println();
++        }
++        for(int i=n; i >= 1; i--)
++            {
++                for(int j=1; j <= i; j++)
++                {
++                    System.out.print(" ");
++                }
++                for(int j=i; j<=n; j++)
++                {
++                    System.out.print(j+" ");
++                }
++                System.out.println();
++            }
++    }
+ }
+Index: src/newpatternstarsusingarray/ReverseNumberTrianglePattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class ReverseNumberTrianglePattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/ReverseNumberTrianglePattern.java b/src/newpatternstarsusingarray/ReverseNumberTrianglePattern.java
+--- a/src/newpatternstarsusingarray/ReverseNumberTrianglePattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/ReverseNumberTrianglePattern.java	(date 1775302720810)
+@@ -1,4 +1,29 @@
+ package newpatternstarsusingarray;
+-
+-public class ReverseNumberTrianglePattern {
++/*
++Output
++1 2 3 4 5 6
++ 2 3 4 5 6
++  3 4 5 6
++   4 5 6
++    5 6
++     6
++ */
++public class ReverseNumberTrianglePattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int i= 1; i <= n; i ++)
++        {
++            for(int j=1; j <= i; j++)
++            {
++                System.out.print(" ");
++            }
++            for(int k=i; k<=n; k++)
++            {
++                System.out.print(k +" ");
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/HollowReverseTrianglePattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class HollowReverseTrianglePattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/HollowReverseTrianglePattern.java b/src/newpatternstarsusingarray/HollowReverseTrianglePattern.java
+--- a/src/newpatternstarsusingarray/HollowReverseTrianglePattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/HollowReverseTrianglePattern.java	(date 1775323529557)
+@@ -1,4 +1,27 @@
+ package newpatternstarsusingarray;
+ 
+-public class HollowReverseTrianglePattern {
++public class HollowReverseTrianglePattern
++{
++    public static void main(String args[])
++    {
++        int n=6;
++        for(int i= n ; i >= 1 ; i--)
++        {
++            for (int j = i; j < n; j++) {
++                System.out.print(" ");
++            }
++
++            for (int j =1; j <=  2*i-1; j++)
++            {
++                if(j==1 || i==n || j==2*i-1) {
++                    System.out.print("*");
++                }
++                else {
++                    System.out.print(" ");
++                }
++            }
++            System.out.println();
++        }
++
++    }
+ }
+Index: src/newpatternstarsusingarray/HollowTrianglePattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class HollowTrianglePattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/HollowTrianglePattern.java b/src/newpatternstarsusingarray/HollowTrianglePattern.java
+--- a/src/newpatternstarsusingarray/HollowTrianglePattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/HollowTrianglePattern.java	(date 1775321932332)
+@@ -1,4 +1,37 @@
+ package newpatternstarsusingarray;
++/*
++Output
++     *
++    * *
++   *   *
++  *     *
++ *       *
++***********
+ 
+-public class HollowTrianglePattern {
++ */
++public class HollowTrianglePattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int i=1; i<=n; i++)
++            {
++                for(int j=i; j<=n; j++)
++                {
++                    System.out.print(" ");
++                }
++                for(int j=1; j<=2*i-1; j++)
++                {
++                    if(j==1 || i==n|| j==2*i-1) {
++                        System.out.print("*");
++                    }
++                    else
++                    {
++                        System.out.print(" ");
++                    }
++                }
++
++                System.out.println();
++            }
++    }
+ }
+Index: src/newpatternstarsusingarray/HollowHourglassPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class HollowHourglassPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/HollowHourglassPattern.java b/src/newpatternstarsusingarray/HollowHourglassPattern.java
+--- a/src/newpatternstarsusingarray/HollowHourglassPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/HollowHourglassPattern.java	(date 1775388373702)
+@@ -1,4 +1,46 @@
+ package newpatternstarsusingarray;
+ 
+-public class HollowHourglassPattern {
++public class HollowHourglassPattern
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int i = 1 ; i <= n ; i ++)
++        {
++            for(int j =1 ; j < i ; j++)
++            {
++                System.out.print(" ");
++            }
++            for(int k =i; k <= n ; k++)
++                {
++                    if(k==i ||  k==n || i==1)
++                    {
++                        System.out.print("* ");
++                    }
++                    else
++                    {
++                        System.out.print("  ");
++                    }
++                }
++            System.out.println();
++        }
++        for(int i = n ; i >=1 ; i--)
++        {
++            for(int j =i ; j > 1 ; j--)
++            {
++                System.out.print(" ");
++            }
++            for(int k =n; k >= i ; k--)
++            {
++                if(k==i ||  k==n || i==1) {
++                    System.out.print("* ");
++                }
++                else
++                {
++                    System.out.print("  ");
++                }
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/HollowDiamondPyramid.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class HollowDiamondPyramid {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/HollowDiamondPyramid.java b/src/newpatternstarsusingarray/HollowDiamondPyramid.java
+--- a/src/newpatternstarsusingarray/HollowDiamondPyramid.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/HollowDiamondPyramid.java	(date 1775326584839)
+@@ -1,4 +1,57 @@
+ package newpatternstarsusingarray;
++/*
++Output
++     *
++    * *
++   *   *
++  *     *
++ *       *
++*         *
++ *       *
++  *     *
++   *   *
++    * *
++     *
++ */
++public class HollowDiamondPyramid
++{
++    public static void main(String[] args)
++    {
++        int n=6;
++        for(int  i = 1 ; i <= n ; i ++)
++        {
++            for(int j = 1 ; j <= n-i ; j++)
++            {
++                System.out.print(" ");
++            }
++            for(int j=1; j<=2*i-1; j++)
++            {
++                if(j==1 || j==2*i-1) {
++                    System.out.print("*");
++                }
++                else
++                {
++                    System.out.print(" ");
++                }
++            }
++            System.out.println();
++        }
+ 
+-public class HollowDiamondPyramid {
++        for(int i = n-1 ; i>=1 ; i --)
++        {
++            for(int  j = 1 ; j <= n-i ; j++ ) {
++                System.out.print(" ");
++            }
++            for (int k = 1; k <= 2*i-1; k++) {
++                if (k == 1 || k == 2*i-1) {
++                    System.out.print("*");
++                }
++                else {
++                    System.out.print(" ");
++                }
++
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/newpatternstarsusingarray/RightPascalsTriangle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class RightPascalsTriangle {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/RightPascalsTriangle.java b/src/newpatternstarsusingarray/RightPascalsTriangle.java
+--- a/src/newpatternstarsusingarray/RightPascalsTriangle.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/RightPascalsTriangle.java	(date 1775390393875)
+@@ -1,4 +1,34 @@
+ package newpatternstarsusingarray;
+-
+-public class RightPascalsTriangle {
++/*
++    Output
++*
++* *
++* * *
++* * * *
++* * *
++* *
++*
++ */
++public class RightPascalsTriangle
++{
++    public static void main(String[] args)
++    {
++     int n=4;
++     for(int i=0 ; i<n ; i++)
++     {
++         for(int j=0 ; j<=i ; j++)
++             {
++             System.out.print("* ");
++             }
++         System.out.println();
++     }
++     for(int i=n ; i>1 ; i--)
++     {
++         for(int j=1 ; j<i ; j++)
++         {
++             System.out.print("* ");
++         }
++        System.out.println();
++     }
++    }
+ }
+Index: src/newpatternstarsusingarray/PascalsTriangle.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class PascalsTriangle {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/PascalsTriangle.java b/src/newpatternstarsusingarray/PascalsTriangle.java
+--- a/src/newpatternstarsusingarray/PascalsTriangle.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/PascalsTriangle.java	(date 1775389746671)
+@@ -1,4 +1,31 @@
+ package newpatternstarsusingarray;
++/*
++Output
++    1
++   1 1
++  1 2 1
++ 1 3 3 1
++ */
++public class PascalsTriangle
++{
++    public static void main(String[] args)
++    {
++        int n=4;
+ 
+-public class PascalsTriangle {
++        for(int i = 1 ; i <= n ; i ++ )
++            {
++                for(int j = i ; j <= n ; j ++)
++                {
++                    System.out.print(" ");
++                }
++                int x=1;
++                for(int j = 1 ; j <=i ; j++)
++                {
++                    System.out.print(x+" ");
++                    x=x*(i-j)/j;
++                }
++                System.out.println();
++            }
++
++    }
+ }
+Index: src/newpatternstarsusingarray/KPattern.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package newpatternstarsusingarray;\r\n\r\npublic class KPattern {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/newpatternstarsusingarray/KPattern.java b/src/newpatternstarsusingarray/KPattern.java
+--- a/src/newpatternstarsusingarray/KPattern.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/newpatternstarsusingarray/KPattern.java	(date 1775391011003)
+@@ -1,4 +1,34 @@
+ package newpatternstarsusingarray;
++/*
+ 
+-public class KPattern {
++Output
++******
++*****
++****
++***
++**
++*
++**
++***
++****
++*****
++******
++ */
++public class KPattern
++{
++    public static void main(String[] args) {
++        int n=6;
++        for(int i=0 ; i<n ; i++){
++            for(int j=n ; j>i ; j--){
++                System.out.print("*");
++            }
++            System.out.println();
++        }
++        for(int i=n-2 ; i>=0 ; i--){
++            for(int j=i; j<n ; j++){
++            System.out.print("*");
++            }
++            System.out.println();
++        }
++    }
+ }
+Index: src/polymorphism/Adding.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package polymorphism;\r\n\r\npublic class Adding {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/polymorphism/Adding.java b/src/polymorphism/Adding.java
+--- a/src/polymorphism/Adding.java	(revision 070be763423c93acfc29410bff5fd9469a2fe0e3)
++++ b/src/polymorphism/Adding.java	(date 1775469549569)
+@@ -1,4 +1,20 @@
+ package polymorphism;
+ 
+-public class Adding {
++public class Adding
++{
++   void  add(int i,int j)
++    {
++     System.out.println(i+j);
++    }
++  void  add(double l,double k)
++    {
++        System.out.println(l+k);
++
++    }
++
++    public static void main(String[] args) {
++        Adding a=new Adding();
++        a.add(1,2);
++        a.add(1.5,2.5);
++    }
+ }
