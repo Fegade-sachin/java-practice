@@ -31,7 +31,7 @@ public class customArrayClass
     }
 
     public Object get(int index) {
-        if (index < 0 || index >= size) {
+        if (index < 0 || index > size) {
             throw new ArrayIndexOutOfBoundsException("Index Out of Bounds Index " + index + " Size = " + index);
         }
         return customArray[index];
@@ -70,8 +70,11 @@ public class customArrayClass
         customarr.add(9);
         customarr.add(10);
         customarr.add(11);
-        System.out.println(customarr.size());
-        System.out.println(customarr.get(0));
+//        System.out.println(customarr.size());
+//        System.out.println(customarr.get(0));
+//        customarr.display();
+        customarr.remove(3);
+        customarr.display();
         System.out.println(customarr.customArray.length);
 
     }
