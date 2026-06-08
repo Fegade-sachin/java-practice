@@ -70,9 +70,9 @@ public class customArrayClass
         customarr.add(9);
         customarr.add(10);
         customarr.add(11);
-//        System.out.println(customarr.size());
-//        System.out.println(customarr.get(0));
-//        customarr.display();
+        System.out.println(customarr.size());
+        System.out.println(customarr.get(0));
+        customarr.display();
         customarr.remove(3);
         customarr.display();
         System.out.println(customarr.customArray.length);
