@@ -1,10 +1,8 @@
-package com.company.ems;
+package java8.company.ems;
 
-import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
-import static com.company.ems.Employee.employee;
+import static java8.company.ems.Employee.employee;
 
 public class WhatIsTheAverageAgeMaleAndFemaleEmployees
 {
