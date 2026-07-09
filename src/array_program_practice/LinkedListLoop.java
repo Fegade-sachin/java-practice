@@ -1,5 +1,8 @@
 package array_program_practice;
-
+/*
+42. Finding the start of looping in a linked list
+Program to identify and print the starting instance of looping in a linked list.
+*/
 public class LinkedListLoop
 {
     static class Node
