@@ -1,5 +1,10 @@
 package array_program_practice;
-
+/*
+44. Finding the nth element from the tail of a linked list
+Program to find the nth element from the end of a given linked list,
+where n is a variable value provided by the user. You may be required
+to find a solution that does not involve multiple iterations
+*/
 public class LinkedList
 {
     Node head;
