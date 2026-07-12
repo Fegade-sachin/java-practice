@@ -1,8 +1,7 @@
 package java8.groupingby.exe;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class Employee {
@@ -46,11 +45,22 @@ public class Employee {
         );
 
         // Group employees by department and map to names
-        Map<Department, List<String>> departmentEmployeeNames = employees.stream()
-                .collect(Collectors.groupingBy(Employee::getDepartment,
-                        Collectors.mapping(Employee::getName, Collectors.toList())));
-        System.out.println(departmentEmployeeNames);
+//        Map<Department, List<String>> departmentEmployeeNames = employees.stream()
+//                .collect(Collectors.groupingBy(Employee::getDepartment,
+//                        Collectors.mapping(Employee::getName, Collectors.toList())));
+//        System.out.println(departmentEmployeeNames);
 
+//Create a custom collector with a finisher function for more tailored data processing.
+
+        Collector<Employee, ?, Map<Department, Set<String>>> departmentToEmployeeNamesSet =
+                Collectors.groupingBy(Employee::getDepartment,
+                        Collectors.mapping(Employee::getName,
+                                Collectors.collectingAndThen(Collectors.toSet(),
+                                        Collections::unmodifiableSet)));
+
+        Map<Department, Set<String>> result = employees.stream()
+                .collect(departmentToEmployeeNamesSet);
+        System.out.println(result);
     }
 }
 
