@@ -1,4 +1,4 @@
-package CoreJavaCodingQuestions;
+package core_Java_coding_questions;
 public class MainClass
 {
     static int i = 1;
