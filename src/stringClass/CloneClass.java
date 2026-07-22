@@ -1,7 +1,5 @@
 package stringClass;
 
-import PatternUsingArray.RhombusPattern;
-
 public class CloneClass implements Cloneable
 {
     void method1()

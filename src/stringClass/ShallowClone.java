@@ -1,9 +1,5 @@
 package stringClass;
 
-import polymorphism.NewClass;
-
-import javax.naming.Name;
-
 class AddressCaffe {
 	String city;
     public  AddressCaffe(String city) {
